@@ -1,0 +1,73 @@
+/* Create.css */
+
+/* Container for the entire create project form */
+.create-form {
+    background: url('../../assets/ground.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Ensures the background covers the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  /* Style for the form elements */
+  form {
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background for form */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px; /* Limit form width */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .page-title {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Button styling */
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Input and Select styling */
+  label {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  input, textarea, .Select__control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* For multi-select option (assigned users) */
+  .Select__multi-value {
+    background-color: #4CAF50;
+    color: white;
+  }
+  

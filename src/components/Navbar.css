@@ -1,0 +1,136 @@
+
+.navbar ul {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar .logo img {
+    margin-top: 30px;
+    margin-right: 10px;
+    filter: invert(25%);
+    width: 36px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Ensure the .logo container uses flexbox */
+.logo {
+    display: flex;
+    align-items: center; /* Center the logo and text vertically */
+  }
+  
+  .logo img {
+    margin-right: 8px;/* Space between the logo and text */
+    display: inline-block; /* Ensure it's treated as an inline block for transform */
+    transform: translateY(-20px);
+  }
+  
+  .logo span {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block; /* Ensure it's treated as an inline block for transform */
+    transform: translateY(-2px); /* Moves the text slightly upwards */
+  }
+  
+  .navbar {
+    width: 100%;
+    padding: 20px 0; /* Reduced padding */
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Reduced margin-bottom */
+}
+.navbar .logo {
+    font-weight: bold;
+    color: var(--heading-color);
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    font-size: 2rem; /* Increased font size for PlanIt */
+}
+
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.1rem; /* Increased font size for all links (Home, Login, Signup) */
+}
+
+/* Font size adjustment for "Home", "Login", "Signup" */
+.nav-elements ul a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600; /* Increase font weight for better visibility */
+    font-size: 1.2rem; /* Increased font size for each link */
+    padding: 0.5rem 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-elements ul a:hover {
+    color: #007bff;
+}
+
+/* For logout button */
+.logout-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.2rem; /* Adjust padding for better size proportion */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 1rem; /* Increased font size */
+}
+
+.logout-btn:hover {
+    background-color: #0056b3;
+}
+
+.logout-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-elements {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background-color: #ffffff;
+        width: 0px;
+        height: calc(100vh - 60px);
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+    }
+
+    .nav-elements.active {
+        width: 270px;
+    }
+
+    .nav-elements ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-elements ul li {
+        margin-right: unset;
+        margin-top: 22px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
