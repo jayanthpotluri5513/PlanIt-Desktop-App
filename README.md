@@ -175,3 +175,14 @@ REACT_APP_STORAGE_BUCKET=<your_firebase_storage_bucket>
 REACT_APP_MESSAGING_SENDER_ID=<your_firebase_messaging_sender_id>
 REACT_APP_APP_ID=<your_firebase_app_id>
 ```
+
+
+## 📜 License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## 🤖 About Me
+I'm Srijayanth Potluri, an aspiring software developer and data analyst with a strong interest in full stack development, machine learning, deep learning, and NLP technologies. I am dedicated to leveraging advanced algorithms to drive insights and foster meaningful interactions across digital platforms.
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srijayanth-potluri-437519259/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SrijayanthP)
+
