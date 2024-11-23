@@ -179,6 +179,10 @@ REACT_APP_MESSAGING_SENDER_ID=<your_firebase_messaging_sender_id>
 REACT_APP_APP_ID=<your_firebase_app_id>
 ```
 
+## Deployed Link
+
+(https://planit-11ea5.firebaseapp.com/)
+
 
 ## 📜 License
 [MIT](https://choosealicense.com/licenses/mit/)
