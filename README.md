@@ -112,18 +112,18 @@ The architecture of PlanIt is designed with modular components to ensure scalabi
 
 ---
 
-## 3. Task and Event Management
+## 3. Project and Event Management
 
-### Creating Tasks/Events
-- Users can create tasks and events by entering details such as title, description, due date, and priority level.
+### Creating Projects/Tasks
+- Users can create projects  by entering details such as title, description and due date.
 - The information is stored in the Firebase database under user-specific nodes for easy retrieval.
 
-### Updating Tasks/Events
-- Users can edit existing tasks/events by updating their details.
+### Updating Projects/Tasks
+- Users can edit existing projects by updating their details.
 - The changes are instantly reflected in the database and synced across all devices.
 
-### Deleting Tasks/Events
-- Users can delete tasks/events they no longer need.
+### Deleting Projects/Tasks
+- Users can delete projects they no longer need.
 - Deleted entries are removed from the database and UI in real-time.
 
 ---
@@ -149,11 +149,11 @@ The architecture of PlanIt is designed with modular components to ensure scalabi
 ## 6. User Interface Features
 
 ### Dashboard
-- Displays a summary of upcoming tasks, events, and notifications.
+- Displays a summary of upcoming projects and notifications.
 - Users can quickly access key information from a single view.
 
 ### Task/Event Lists
-- Tasks and events are categorized into sections such as "Today," "Upcoming," and "Completed."
+- Projects are categorized into sections such as "All," "Sales," "Developement" etc.
 - The lists are color-coded and visually organized for better user experience.
 
 ### Search and Filters
