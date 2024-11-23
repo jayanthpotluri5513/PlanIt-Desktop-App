@@ -3,8 +3,7 @@
 A modern project management application designed to simplify collaboration and task tracking. Built using technologies like ReactJS for the frontend and Firebase for the backend, PlanIt helps teams organize projects, monitor progress, and improve productivity.
 
 ## Live Demo
-Check out the live demo of PlanIt here:  
-[**Live Demo of PlanIt**](https://planit-11ea5.firebaseapp.com/)
+Check out the live demo of PlanIt here:  [**Live Demo of PlanIt**](https://planit-11ea5.firebaseapp.com/)
 
 ## 🛠 Features
 - **Task Management**: Create, assign, update, and track tasks effortlessly.
