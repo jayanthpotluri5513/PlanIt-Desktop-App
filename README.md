@@ -1,4 +1,4 @@
-PlanIt - Desktop App 💼
+# PlanIt - Desktop App 💼
 
 A modern project management application designed to simplify collaboration and task tracking. Built using technologies like ReactJS for the frontend and Firebase for the backend, PlanIt helps teams organize projects, monitor progress, and improve productivity.
 
@@ -65,13 +65,12 @@ Go to the Firebase console and create a new project.
 Add your app to the Firebase project and copy the configuration details.
 
 Create a .env file in the project directory with the following variables:
-
-`REACT_APP_API_KEY=<your_firebase_api_key>
-REACT_APP_AUTH_DOMAIN=<your_firebase_auth_domain>
-REACT_APP_PROJECT_ID=<your_firebase_project_id>
-REACT_APP_STORAGE_BUCKET=<your_firebase_storage_bucket>
-REACT_APP_MESSAGING_SENDER_ID=<your_firebase_messaging_sender_id>
-REACT_APP_APP_ID=<your_firebase_app_id>`
+REACT_APP_API_KEY=`<your_firebase_api_key>`
+REACT_APP_AUTH_DOMAIN=`<your_firebase_auth_domain>`
+REACT_APP_PROJECT_ID=`<your_firebase_project_id>`
+REACT_APP_STORAGE_BUCKET=`<your_firebase_storage_bucket>`
+REACT_APP_MESSAGING_SENDER_ID=`<your_firebase_messaging_sender_id>`
+REACT_APP_APP_ID=`<your_firebase_app_id>`
 Replace the placeholders with your Firebase project details.
 
 
